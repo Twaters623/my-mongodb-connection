@@ -1,5 +1,5 @@
-@database = myDatabase
-@collection = myCollection
+@database = BigBoxStore
+@collection = GroceryInventory
 @domain = http://localhost
 @port = 3000
 ###
@@ -11,13 +11,13 @@ POST {{domain}}:{{port}}/insert/{{database}}/{{collection}}
 Content-Type: application/json
 
 {
-  "document": {
-    "name": "Jane",
-    "age": 30
-  }
+ 
+  
+  
+  
 }
 
 ###
-@id = 672189198b014f93b77159c5
+@id = 6723f2220e392b4a695d7cec
 DELETE {{domain}}:{{port}}/delete/{{database}}/{{collection}}/{{id}}
 Content-Type: application/json
